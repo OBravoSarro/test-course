@@ -8,6 +8,8 @@ import { MedicosComponent } from './middle/spy/medicos.component';
 import { DoctorComponent } from './middle2/doctor/doctor.component';
 import { DoctorService } from './middle2/doctor/doctor.service';
 import { IncrementadorComponent } from './middle2/incrementador/incrementador.component';
+import { NavbarComponent } from './advanced/navbar/navbar.component';
+import { RouterDoctorComponent } from './advanced/router-doctor/router-doctor.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { IncrementadorComponent } from './middle2/incrementador/incrementador.co
     HttpClientModule,
     MedicosComponent,
     IncrementadorComponent,
-    DoctorComponent
+    DoctorComponent,
+    NavbarComponent,
+    RouterDoctorComponent
   ],
   imports: [
     BrowserModule,
